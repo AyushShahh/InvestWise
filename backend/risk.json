@@ -1,0 +1,98 @@
+{
+    "risk_assessment_models": [
+      {
+        "model": "Value at Risk (VaR)",
+        "overview": "Value at Risk (VaR) quantifies the maximum potential loss over a specific time horizon within a given confidence interval.",
+        "calculation_methods": [
+          {
+            "method": "Historical Simulation",
+            "description": "Uses historical market data to simulate potential future losses.",
+            "advantages": ["Simple and easy to implement"],
+            "disadvantages": ["May not account for future market volatility"]
+          },
+          {
+            "method": "Variance-Covariance (Parametric VaR)",
+            "description": "Assumes that returns are normally distributed.",
+            "advantages": ["Computationally efficient"],
+            "disadvantages": ["Assumes normal distribution, which may not hold true in real markets"]
+          },
+          {
+            "method": "Monte Carlo Simulation",
+            "description": "Uses computational algorithms to generate a wide range of possible future scenarios.",
+            "advantages": ["Flexible and can model more complex distributions"],
+            "disadvantages": ["Computationally intensive"]
+          }
+        ]
+      },
+      {
+        "model": "Conditional Value at Risk (CVaR)",
+        "overview": "CVaR, also known as Expected Shortfall, provides an estimate of the expected loss given that the loss has exceeded the VaR threshold.",
+        "calculation_methods": [
+          {
+            "method": "Historical Simulation",
+            "description": "Focuses on the average of losses beyond the VaR threshold."
+          },
+          {
+            "method": "Optimized CVaR",
+            "description": "Uses optimization techniques to minimize CVaR through portfolio adjustments."
+          }
+        ]
+      },
+      {
+        "model": "Stress Testing and Scenario Analysis",
+        "overview": "Techniques used to evaluate how trading strategies perform under extreme yet plausible market conditions.",
+        "types": [
+          {
+            "type": "Historical Scenarios",
+            "description": "Uses historical market events to test current strategies.",
+            "advantages": ["Based on real data"],
+            "disadvantages": ["May not predict future unprecedented events"]
+          },
+          {
+            "type": "Hypothetical Scenarios",
+            "description": "Involves creating hypothetical extreme scenarios.",
+            "advantages": ["Customizable to specific risk factors"],
+            "disadvantages": ["Subjective and may lack empirical basis"]
+          },
+          {
+            "type": "Reverse Stress Testing",
+            "description": "Identifies scenarios that could lead to significant losses."
+          }
+        ]
+      },
+      {
+        "model": "Sensitivity Analysis",
+        "overview": "Examines how changes in market variables impact the performance of trading strategies.",
+        "techniques": [
+          { "technique": "Delta (Δ) Sensitivity Analysis", "description": "Measures sensitivity to small changes in underlying asset prices." },
+          { "technique": "Gamma (Γ) Sensitivity Analysis", "description": "Measures the rate of change of delta with respect to changes in asset prices." },
+          { "technique": "Vega (ν) Sensitivity Analysis", "description": "Measures sensitivity to changes in volatility." }
+        ]
+      },
+      {
+        "model": "Credit Risk Models",
+        "overview": "Assess the likelihood of a counterparty defaulting on a financial obligation.",
+        "key_models": [
+          { "name": "Credit Default Swap (CDS) Spreads", "description": "Utilize market prices of CDS to gauge default risk." },
+          { "name": "Probability of Default (PD) Models", "description": "Estimate the likelihood of a counterparty defaulting within a specific period." }
+        ]
+      },
+      {
+        "model": "Liquidity Risk Models",
+        "overview": "Assess the risk associated with the inability to quickly buy or sell assets without significantly affecting their price.",
+        "key_metrics": [
+          { "metric": "Bid-Ask Spread", "description": "The difference between the bid price and the ask price." },
+          { "metric": "Market Depth", "description": "The volume of orders at different price levels." },
+          { "metric": "Price Impact Models", "description": "Measure the effect of trade size on asset prices." }
+        ]
+      },
+      {
+        "model": "Operational Risk Models",
+        "overview": "Examine the risks stemming from internal processes, systems, and human errors.",
+        "frameworks": [
+          { "name": "Event-Driven Models", "description": "Analyze the frequency and impact of operational risk events." },
+          { "name": "Scenario Analysis", "description": "Identifies potential operational risk scenarios and assesses their impact." }
+        ]
+      }
+    ]
+  }

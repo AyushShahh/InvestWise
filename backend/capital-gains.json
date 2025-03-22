@@ -1,0 +1,107 @@
+{
+    "Capital_Gains_Tax_India": {
+      "Definition": "Any profit or gain from the sale of a capital asset is known as income from capital gains and is taxable in the year of asset transfer.",
+      "Types": {
+        "Short_Term_Capital_Gains": {
+          "Definition": "An asset held for up to 24 months is considered a Short-Term Capital Asset.",
+          "Special_Assets": {
+            "Holding_Period_12_Months": [
+              "Listed Equity or Preference Shares",
+              "Listed Securities (Debentures, Bonds, Govt Securities)",
+              "Units of UTI (Quoted or Unquoted)",
+              "Units of Equity Oriented Mutual Fund (Quoted or Unquoted)",
+              "Zero Coupon Bonds (Quoted or Unquoted)"
+            ]
+          }
+        },
+        "Long_Term_Capital_Gains": {
+          "Definition": "An asset held for more than 24 months is considered a Long-Term Capital Asset.",
+          "Special_Assets": {
+            "Holding_Period_12_Months": [
+              "Listed Equity or Preference Shares",
+              "Listed Securities (Debentures, Bonds, Govt Securities)",
+              "Units of UTI (Quoted or Unquoted)",
+              "Units of Equity Oriented Mutual Fund (Quoted or Unquoted)",
+              "Zero Coupon Bonds (Quoted or Unquoted)"
+            ]
+          }
+        }
+      },
+      "Capital_Assets": {
+        "Examples": ["Land", "Building", "House Property", "Vehicles", "Patents", "Trademarks", "Jewellery"],
+        "Exclusions": [
+          "Stock or Raw Material for Business",
+          "Personal Goods (Clothes, Furniture)",
+          "Agricultural Land in Rural India",
+          "Gold Bonds & Special Bearer Bonds",
+          "Gold Monetization Scheme Bonds"
+        ]
+      },
+      "Tax_Rates": {
+        "Before_July_2024": {
+          "LTCG": {
+            "Listed_Equity_Shares": "10% over Rs. 1.25 Lakh",
+            "Others": "20%"
+          },
+          "STCG": {
+            "Without_STT": "Normal Slab Rates",
+            "With_STT": "15%"
+          }
+        },
+        "After_July_2024": {
+          "LTCG": {
+            "Listed_Equity_Shares": "12.5% over Rs. 1.25 Lakh",
+            "Land_Building": {
+              "Option_1": "12.5% without indexation",
+              "Option_2": "20% with indexation"
+            },
+            "Others": "12.5%"
+          },
+          "STCG": {
+            "Without_STT": "Normal Slab Rates",
+            "With_STT": "20%"
+          }
+        }
+      },
+      "Tax_on_Equity_and_Debt_Mutual_Funds": {
+        "Before_April_2023": {
+          "Debt_Funds": {
+            "STCG": "Tax Slab Rates",
+            "LTCG": "20% with Indexation"
+          },
+          "Equity_Funds": {
+            "STCG": "15%",
+            "LTCG": "10% over Rs. 1.25 Lakh without Indexation"
+          }
+        },
+        "After_April_2023": {
+          "Debt_Funds": {
+            "STCG": "Tax Slab Rates",
+            "LTCG": "Tax Slab Rates"
+          },
+          "Equity_Funds": {
+            "STCG": "15%",
+            "LTCG": "10% over Rs. 1.25 Lakh without Indexation"
+          }
+        }
+      },
+      "Tax_Changes_Impact": {
+        "Example_Case": {
+          "Before_Amendment": {
+            "Investment": "Rs. 10,00,000 (FY 2018-19)",
+            "Sale_Value": "Rs. 18,00,000 (FY 2024-25)",
+            "Indexed_Cost": "Rs. 12,96,428",
+            "LTCG": "Rs. 5,03,571",
+            "Tax_Payable": "Rs. 40,714"
+          },
+          "After_Amendment": {
+            "Investment": "Rs. 10,00,000 (April 2023)",
+            "Sale_Value": "Rs. 18,00,000 (FY 2024-25)",
+            "STCG": "Rs. 8,00,000",
+            "Tax_Payable": "Rs. 36,400"
+          },
+          "Impact": "For shorter holding periods, taxation is reduced. However, for longer holding periods, indexation benefit removal results in higher tax liability."
+        }
+      }
+    }
+  }

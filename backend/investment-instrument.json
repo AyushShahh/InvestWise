@@ -1,0 +1,74 @@
+{
+    "investment_instruments": [
+      {
+        "name": "Direct Stocks",
+        "type": "Equity",
+        "risk_level": "High",
+        "returns": "Varies based on market performance",
+        "investment_tenure": "Short to Long-term",
+        "liquidity": "High",
+        "tax_benefits": "LTCG tax after 1 year, STCG tax within 1 year",
+        "example": "Investing in blue-chip companies for long-term growth."
+      },
+      {
+        "name": "Equity Mutual Funds",
+        "type": "Equity",
+        "risk_level": "Medium to High",
+        "returns": "10-15% historically",
+        "investment_tenure": "Medium to Long-term",
+        "liquidity": "Medium",
+        "tax_benefits": "LTCG tax after 1 year, STCG tax within 1 year",
+        "example": "Investing in a diversified equity mutual fund to balance risk and returns."
+      },
+      {
+        "name": "Fixed Deposits (FD)",
+        "type": "Fixed Income",
+        "risk_level": "Low",
+        "returns": "5-7% per annum",
+        "investment_tenure": "Short to Long-term",
+        "liquidity": "Low to Medium",
+        "tax_benefits": "Exempt under Sec 80C (Tax Saver FDs)",
+        "example": "Investing in a 5-year tax-saving FD to get stable returns and tax benefits."
+      },
+      {
+        "name": "Public Provident Fund (PPF)",
+        "type": "Retirement Savings",
+        "risk_level": "Low",
+        "returns": "7-8% (Government-backed)",
+        "investment_tenure": "Long-term (15 years)",
+        "liquidity": "Low",
+        "tax_benefits": "Exempt under Sec 80C, tax-free maturity amount",
+        "example": "Investing in PPF for secure long-term wealth accumulation."
+      },
+      {
+        "name": "National Pension System (NPS)",
+        "type": "Retirement Savings",
+        "risk_level": "Medium",
+        "returns": "8-10% historically",
+        "investment_tenure": "Long-term (until retirement)",
+        "liquidity": "Low",
+        "tax_benefits": "Exempt under Sec 80CCD, partial withdrawal allowed",
+        "example": "Investing in NPS to create a retirement corpus with a mix of equity and debt."
+      },
+      {
+        "name": "Systematic Investment Plans (SIPs)",
+        "type": "Investment Strategy",
+        "risk_level": "Varies based on fund type",
+        "returns": "Depends on underlying mutual fund performance",
+        "investment_tenure": "Short to Long-term",
+        "liquidity": "Medium",
+        "tax_benefits": "Depends on fund type (Equity or Debt)",
+        "example": "Investing in SIPs for disciplined and gradual wealth creation."
+      },
+      {
+        "name": "Real Estate Investment Trusts (REITs)",
+        "type": "Alternative Investment",
+        "risk_level": "Medium",
+        "returns": "6-12% based on market conditions",
+        "investment_tenure": "Medium to Long-term",
+        "liquidity": "Medium",
+        "tax_benefits": "Dividend income taxable as per slab",
+        "example": "Investing in REITs to gain exposure to the real estate market without buying property."
+      }
+    ]
+  }

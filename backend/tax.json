@@ -1,0 +1,90 @@
+{
+  "income_tax": {
+    "definition": "Income tax is a type of tax that the central government charges on income earned during a financial year. It is a source of revenue for the government used for infrastructure, healthcare, education, subsidies, and welfare schemes.",
+    "types": {
+      "direct_tax": "Levied directly on income or wealth (e.g., Income Tax).",
+      "indirect_tax": "Levied on goods and services (e.g., GST)."
+    },
+    "tax_payers": {
+      "categories": [
+        "Individuals",
+        "Hindu Undivided Family (HUF)",
+        "Firms",
+        "Companies",
+        "Association of Persons (AOP)",
+        "Body of Individuals (BOI)",
+        "Local Authority",
+        "Artificial Judicial Person"
+      ],
+      "residential_status": {
+        "resident": "Taxed on global income.",
+        "non_resident": "Taxed only on Indian income.",
+        "resident_but_not_ordinary": "Taxed under specific conditions."
+      }
+    },
+    "income_heads": {
+      "salary": "Income from salary and pension.",
+      "house_property": "Rental income from property.",
+      "business_profession": "Profits from businesses, freelancing, and professionals.",
+      "capital_gains": "Income from selling assets (e.g., shares, property, jewellery).",
+      "other_sources": "Savings interest, fixed deposits, lottery winnings, etc."
+    },
+    "tax_savings": {
+      "section_80C": {
+        "instruments": {
+          "ELSS": { "type": "Equity", "lock_in": "3 years", "max_investment": "No limit (tax benefit up to Rs 1.5 lakh)" },
+          "PPF": { "type": "Fixed Income", "lock_in": "15 years", "max_investment": "Rs 1.5 lakh" },
+          "NSC": { "type": "Fixed Income", "lock_in": "5 years", "max_investment": "No limit (tax benefit up to Rs 1.5 lakh)" },
+          "5-Year FD": { "type": "Fixed Income", "lock_in": "5 years", "max_investment": "Rs 1.5 lakh" },
+          "SCSS": { "type": "Fixed Income", "lock_in": "5 years", "max_investment": "Rs 15 lakh" }
+        }
+      },
+      "health_insurance_80D": {
+        "self_family": { "below_60": "Rs 25,000", "above_60": "Rs 50,000" },
+        "parents": { "below_60": "Rs 25,000", "above_60": "Rs 50,000" },
+        "preventive_health": "Rs 5,000 (included in limits)"
+      },
+      "education_loan_80E": "Deduction for interest on higher education loans (no limit).",
+      "home_loan": {
+        "section_24": { "self_occupied": "Rs 2,00,000", "let_out": "No cap but rental income must be declared" },
+        "section_80C": "Principal repayment up to Rs 1.5 lakh",
+        "section_80EE": "Rs 50,000 for first-time home buyers"
+      }
+    },
+    "tax_slabs": {
+      "old_regime": {
+        "below_2.5_lakh": "0%",
+        "2.5_to_5_lakh": "5%",
+        "5_to_10_lakh": "20%",
+        "above_10_lakh": "30%"
+      },
+      "new_regime": {
+        "below_3_lakh": "0%",
+        "3_to_7_lakh": "5%",
+        "7_to_10_lakh": "10%",
+        "10_to_12_lakh": "15%",
+        "12_to_15_lakh": "20%",
+        "above_15_lakh": "30%"
+      },
+      "rebate_87A": {
+        "old_regime": "Up to Rs 5 lakh income - Rs 12,500 rebate",
+        "new_regime": "Up to Rs 7 lakh income - Rs 25,000 rebate"
+      }
+    },
+    "capital_gains": {
+      "taxation": "Capital gains are taxed based on the type of asset and holding period.",
+      "exemption_limit": "Long-term capital gains on equity shares up to Rs 1.25 lakh are tax-free."
+    },
+    "tax_payment": {
+      "TDS": "Tax deducted at source from specified payments.",
+      "advance_tax": "For taxpayers with liability over Rs 10,000, payable in installments.",
+      "self_assessment_tax": "Balance tax paid before filing returns.",
+      "e_payment": "Online tax payment available via the e-filing portal."
+    },
+    "refunds": "Excess tax paid refunded to the taxpayer's bank account.",
+    "important_terms": {
+      "financial_year": "From April 1 to March 31 of the next year.",
+      "assessment_year": "The year following the financial year in which tax is assessed."
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+    "SEBI_Guidelines": {
+      "Primary_Markets": {
+        "Equity_Markets": {
+          "Policy_Developments": "Details of policy updates related to equity markets.",
+          "Market_Activity_Trends": {
+            "Applications_Received_Approved": "Details of public issuance applications received and approved.",
+            "Fund_Raising": "Breakdown of fund-raising under different categories.",
+            "Median_Time_for_Approval": "Aggregate basis approval time statistics."
+          }
+        },
+        "Debt_Markets_and_Hybrids": {
+          "Policy_Developments": "Updates on regulations governing debt and hybrid markets.",
+          "Market_Activity_Trends": {
+            "Applications_Received_Approved": "Public issuance details.",
+            "Median_Time_for_Approval": "Aggregate approval times.",
+            "Fund_Raising": "Categories of funds raised."
+          }
+        },
+        "Corporate_Governance_Restructuring": {
+          "Mergers_Acquisitions": "Details of major M&A deals.",
+          "Regulatory_Actions": "Actions by SEBI to improve transparency and governance.",
+          "Defaulter_Companies": "List and details of companies being wound up."
+        },
+        "Intermediaries": {
+          "Types": "Merchant Bankers, Bankers to an Issue, Underwriters, etc.",
+          "Registration_Statistics": "New registrations, approval times, rejections, suspensions."
+        }
+      },
+      "Secondary_Markets": {
+        "Cash_Markets": {
+          "Equity_Markets": {
+            "Policy_Developments": "Regulatory changes in equity markets.",
+            "Market_Activity_Trends": {
+              "Segment_Participants_Performance": "Breakdown of market activity.",
+              "New_Products": "Details of new products approved by SEBI."
+            }
+          },
+          "Debt_Markets_and_Hybrids": {
+            "Policy_Developments": "Regulatory updates.",
+            "Market_Activity_Trends": "Performance analysis by segment and participants."
+          },
+          "Risk_Management": "Details on market concentration, suspended securities."
+        },
+        "Derivatives_Markets": {
+          "Equity_Derivatives": {
+            "Policy_Developments": "Regulatory updates.",
+            "Market_Activity_Trends": "Segment-wise performance and approvals.",
+            "Risk_Management": "Market concentration details."
+          },
+          "Commodity_Derivatives": {
+            "Policy_Developments": "Regulatory updates.",
+            "Price_Discovery": "Impact of global commodity prices.",
+            "Market_Activity_Trends": "Turnover and segment-wise data."
+          },
+          "Currency_Derivatives": {
+            "Policy_Developments": "Regulatory changes.",
+            "Market_Activity_Trends": "Performance breakdown.",
+            "Risk_Management": "Market concentration details."
+          },
+          "Interest_Rate_Derivatives": {
+            "Policy_Developments": "Updates on interest rate derivatives.",
+            "Market_Activity_Trends": "Segment-wise trends."
+          }
+        },
+        "Market_Infrastructure": {
+          "MIIs": "Stock Exchanges, Clearing Corporations, Depositories.",
+          "Market_Development": "Ownership, governance, investor protection measures."
+        },
+        "Intermediaries": {
+          "Types": "Trading members, Brokers, Investment Advisors, etc.",
+          "Market_Conduct": "Registrations, suspensions, and regulations."
+        }
+      },
+      "Fund_Management_Activities": {
+        "Mutual_Funds": {
+          "Policy_Developments": "Regulatory changes.",
+          "Market_Activity_Trends": "Schemes launched, fund inflow/outflow, AUM data.",
+          "Risk_Management": "Concentration, NPAs, unclaimed redemption."
+        },
+        "AIFs": {
+          "Policy_Developments": "Alternative Investment Fund regulations.",
+          "Market_Activity_Trends": "Fundraising, sector-wise deployment."
+        },
+        "Portfolio_Managers": "Regulations and market trends for PMS."
+      },
+      "Foreign_Investors": {
+        "Foreign_Portfolio_Investors": {
+          "Policy_Developments": "Updates on FPI regulations.",
+          "Market_Activity_Trends": "Investment trends, sectoral breakdown."
+        },
+        "Foreign_Venture_Capital": "Regulations and investment trends."
+      },
+      "Credit_Rating_Agencies": {
+        "Policy_Developments": "Changes in CRA regulations.",
+        "Market_Activity_Trends": "New ratings, reviews, downgrades."
+      }
+    }
+  }

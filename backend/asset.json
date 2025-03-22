@@ -1,0 +1,34 @@
+{
+    "asset_allocation_strategies": [
+      {
+        "strategy": "Strategic Asset Allocation",
+        "description": "A long-term approach that maintains a fixed asset mix based on expected returns, risk tolerance, and time frame. Periodic rebalancing ensures alignment with investment goals.",
+        "example": "A portfolio with 50% stocks and 50% bonds expecting an average return of 7.5% per year."
+      },
+      {
+        "strategy": "Constant-Weighting Asset Allocation",
+        "description": "A strategy that involves continuous rebalancing by purchasing assets that decline in value and selling assets that increase in value to maintain the original asset mix.",
+        "rule_of_thumb": "Rebalance when any asset class moves more than 5% from its original allocation."
+      },
+      {
+        "strategy": "Tactical Asset Allocation",
+        "description": "A flexible strategy that temporarily adjusts the asset mix to capitalize on short-term investment opportunities while maintaining a long-term allocation plan.",
+        "key_factor": "Requires market-timing skills and discipline to return to the strategic asset mix after achieving short-term gains."
+      },
+      {
+        "strategy": "Dynamic Asset Allocation",
+        "description": "An active strategy that continuously adjusts the asset mix in response to market trends, selling declining assets and purchasing rising ones.",
+        "key_difference": "Unlike constant-weighting allocation, this strategy follows market momentum rather than maintaining a fixed allocation."
+      },
+      {
+        "strategy": "Insured Asset Allocation",
+        "description": "A risk-averse strategy that establishes a base portfolio value, below which investments are shifted to risk-free assets such as Treasury bills.",
+        "example": "If the portfolio falls to the base value, funds are moved into secure investments to preserve capital."
+      },
+      {
+        "strategy": "Integrated Asset Allocation",
+        "description": "A comprehensive approach that combines economic expectations with an investor's risk tolerance to create a balanced asset mix.",
+        "key_feature": "Unlike other strategies, it accounts for both market changes and personal risk preferences."
+      }
+    ]
+  }
