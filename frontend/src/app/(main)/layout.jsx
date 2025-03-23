@@ -6,11 +6,10 @@ import { AnimatePresence, motion } from "motion/react";
 import { IconMenu2, IconX } from "@tabler/icons-react";
 import {
     IconArrowLeft,
-    IconUserBolt,
     IconMailSpark,
-    IconCalendarDollar,
-    IconFileInvoice,
-    IconBrandStripeFilled
+    IconBrandStripeFilled,
+    IconBusinessplan,
+    IconBrandDenodo
   } from "@tabler/icons-react";
 import { AuthProvider, useAuth } from "@/context/authContext";
 
@@ -185,25 +184,18 @@ export default function SidebarLayout({ children }) {
       ),
     },
     {
-        label: "Your todos",
-        href: "#",
+        label: "Your investments",
+        href: "/investments",
         icon: (
-            <IconCalendarDollar className="h-5 w-5 shrink-0 text-neutral-700 dark:text-neutral-200" />
-        )
+          <IconBusinessplan className="h-5 w-5 shrink-0 text-neutral-700 dark:text-neutral-200" />
+        ),
     },
     {
-        label: "Financial Literacy",
-        href: "#",
+        label: "Real-time data",
+        href: "/realtime",
         icon: (
-            <IconFileInvoice className="h-5 w-5 shrink-0 text-neutral-700 dark:text-neutral-200" />
-        )
-    },
-    {
-      label: "Profile",
-      href: "#",
-      icon: (
-        <IconUserBolt className="h-5 w-5 shrink-0 text-neutral-700 dark:text-neutral-200" />
-      ),
+          <IconBrandDenodo className="h-5 w-5 shrink-0 text-neutral-700 dark:text-neutral-200" />
+        ),
     },
     {
       label: "Logout",
